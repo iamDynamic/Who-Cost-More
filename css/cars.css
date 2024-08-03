@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+nav {
+  display: block;
+  background-color: #262626;
+  text-align: center;
+  padding: 20px;
+}
+nav h1 {
+  font-size: 60px;
+  color: #fff;
+}
+nav .ArefContainer a {
+  font-size: 30px;
+  color: #fff;
+  margin-left: 10px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+article {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.q {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+article section {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+h1 {
+  font-size: 30px;
+}
+button {
+  padding: 10px;
+  background-color: #262626;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bolder;
+  cursor: pointer;
+}
+button,
+h1,
+p {
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+img {
+  margin-left: 20px;
+  margin-right: 50px;
+}
+.Vs {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 50px;
+  border: solid #000;
+  padding: 5px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+/* keyframe Only */
+@keyframes SuccesAnimation {
+  0% {
+    background-color: #95d5b2;
+  }
+  10% {
+    background-color: #568d6f;
+  }
+  30% {
+    background-color: #39875c;
+  }
+  50% {
+    background-color: #198f4e;
+  }
+  100% {
+    background-color: #198f4e;
+  }
+}
+@keyframes UnsuccesfulAnimation {
+  0% {
+    background-color: #6a040f;
+  }
+  10% {
+    background-color: #7e252e;
+  }
+  100% {
+    background-color: #6a040f;
+  }
+}

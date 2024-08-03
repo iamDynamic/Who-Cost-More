@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    display: block;
+    background-color: #262626;
+    text-align: center;
+    padding: 20px;
+}
+nav h1{
+    font-size: 60px;
+    color: #fff;
+}
+nav .ArefContainer a{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+article{
+    display: grid;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+article h1,article p,article a{
+    text-transform: capitalize;
+}
+article a{
+    text-decoration: none;
+    color: #000;
+}
